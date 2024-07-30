@@ -1,0 +1,87 @@
+
+import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding:0;
+    margin:0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(to right,#01022d,#000);
+    
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.container{
+    background-image: linear-gradient(to right,#01022d59 30%,#00000075),url(im1.jpg);
+    width: 5000px;
+    height: 640px;
+    background-position: center;
+    
+}
+.container:hover{
+    background-image: linear-gradient(to right,#01022d59 30%,transparent),url(im1.jpg);
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+    padding:60px;
+}
+.content p{ letter-spacing: 2px;
+    width: 230px;
+    padding: 50px 30px;
+
+}
+.content h1{
+    font-size: 156%;
+
+}
+.botten{
+    font-size: 90px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    
+    
+}
+.botten:hover{
+    background-color: transparent;
+    border-color: rgb(202, 192, 192);
+    color: white;
+
+}.botten a{
+    color: black;
+    font-size: 18px;
+}
+    
